@@ -8,6 +8,8 @@ The first implementation of Myte, and by far the most complete of the old versio
 
 Very feature complete, including support for basic data types, variants types, pattern matching, traits, collections, etc. Not well tested however, and the type checker tries to do a lot of inference and is fairly buggy.
 
+The best examples are found in the [standard library](mytek/stdlib) and [examples](mytek/examples) directories.
+
 ## myter
 
 The beginnings of a Myte implementation in Rust. Implemented a significant chunk of the parser, lexical analyze/type checker, and tree walk interpreter.
